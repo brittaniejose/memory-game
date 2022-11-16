@@ -1,0 +1,22 @@
+.MemoryCard {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 5px;
+    border: solid 3px navy;
+    cursor: pointer;
+    background: linear-gradient(
+        to bottom,
+        #5d9634,
+        #5d9634 50%,
+        #538c2b 50%,
+        #538c2b
+    );
+    background-size: 100% 20px;
+}
+
+.dcImg {
+    width: 100%;
+    padding-top: 20px;
+}
