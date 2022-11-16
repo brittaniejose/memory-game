@@ -1,7 +1,14 @@
 import './App.css';
 import MemoryCard from './components/MemoryCard';
+import { useState } from 'react';
+
+function generateDeck() {
+  
+}
 
 function App() {
+  const [deck, pickedCards] = useState([])
+
   return (
     <div className="App">
       <header className="App-header">
